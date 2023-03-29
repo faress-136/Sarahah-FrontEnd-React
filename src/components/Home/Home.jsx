@@ -61,7 +61,7 @@ export default function Home({ userData }) {
           <>
             <div className="user-link text-center p-3 ">
               <Link to={`user/${id}`}>
-                {BaseURL}/user
+              https://sarahah-front-end-react.vercel.app/user
                 <br />
                 {id}{" "}
               </Link>
