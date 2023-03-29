@@ -173,3 +173,11 @@ form textarea{
 .forgot-text li{
   color: #10BBB3;
 }
+
+.btn-sarahah a:hover {
+  color: white !important; 
+}
+
+.btn-sarahah:hover a{
+  color: white !important; 
+}

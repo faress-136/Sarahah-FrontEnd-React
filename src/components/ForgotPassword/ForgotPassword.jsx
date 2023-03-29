@@ -51,13 +51,13 @@ export default function ForgotPassword({ randomNumber, randOtp }) {
           email: user.email,
           OTP: randOtp,
         });
-        if (res.data.message == "Success" && res.status == 200) {
+        if (res?.data?.message == "Success" && res?.status == 200) {
           setAPIError([]);
           setIsLoading(false);
           navigate(`/otp/${user.email}`);
         }
       } catch ({ response }) {
-        setAPIError(response.data.err);
+        setAPIError(response?.data?.err);
         setIsLoading(false);
       }
     }
