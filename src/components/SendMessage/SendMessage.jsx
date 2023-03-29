@@ -22,8 +22,8 @@ export default function SendMessage() {
     setIsLoading(true);
     try {
       let res = await axios.get(`${BaseURL}/user/${id}`);
-      if (res.data.message == "Success" && res.status == 200) {
-        setName(res.data.founded.name);
+      if (res?.data?.message == "Success" && res?.status == 200) {
+        setName(res?.data?.founded?.name);
         setUserFounded(true);
         setIsLoading(false);
       }
