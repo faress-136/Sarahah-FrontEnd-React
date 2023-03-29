@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Zen+Dots&display=swap');
+
+:root {
+  --navbarColor: #10BBB3;
+  --headers: #10BBB3;
+  --bgColor: rgb(248,249,250);
+
+  color-scheme: light dark;
+  background-color: #10BBB3;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body{
+  background-color: var(--bgColor);
+  font-family: 'Cairo', sans-serif;
+  line-height: 1.6;
+  font-weight: 500;
+  color: #1e3948;
+}
+
+.maindiv{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-color{
+  background-color: var(--navbarColor);
+}
+
+.logo-game{
+  height: 35px;
+}
+
+ul li{
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+button{
+  border: none;
+  outline: none;
+}
+
+.square-form{
+  width: 40% !important;
+}
+
+.text-color{
+  color: var(--headers) !important;
+}
+
+h4{
+  color: var(--headers);
+  font-weight: 700;
+  font-size: 28px;
+}
+
+h5{
+  color: var(--headers);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+h3{
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.placeholder-font{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.btn-sarahah{
+  color: #10BBB3;
+  border-color: #10BBB3;
+  border: solid 2px;
+  font-size: 20px;
+  font-weight: 800 !important;
+  height: -moz-fit-content;
+  height: fit-content;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-sarahah:hover{
+  color: white !important;
+  background-color: #10BBB3; 
+}
+
+input:focus{
+  border-color: #10BBB3 !important;
+  box-shadow: 0 0 0 0.15rem #10BBB3 !important;
+}
+
+.alert-msg{
+  background-color: #10BBB3 !important;
+}
+
+.upper-section img{
+  width: 10%;
+}
+
+.user-link{
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--headers);
+}
+
+.msg{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.verify span{
+  color: var(--headers);
+  text-decoration: underline;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+
+  position: relative;
+  /* margin: 100px auto; */
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #10BBB3;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+form textarea{
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+.forgot-text li{
+  color: #10BBB3;
+}
