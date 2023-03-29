@@ -60,11 +60,11 @@ export default function Home({ userData }) {
         <Modal.Body className="text-dark">
           <>
             <div className="user-link text-center p-3 ">
-              <Link to={`user/${id}`}>
+              <a href={`user/${id}`} target="_blank">
               https://sarahah-front-end-react.vercel.app/user
                 <br />
                 {id}{" "}
-              </Link>
+              </a>
             </div>
             <Button
               variant="secondary"
