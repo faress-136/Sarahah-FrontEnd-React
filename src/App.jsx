@@ -51,8 +51,8 @@ function App() {
       {path: "/login", element: <Login saveMyUser = {saveMyUser}/>},
       {path: "/register", element: <Register/>},
       {path: "/email_verification", element: <EmailVerification/>},
-      {path: "/user/:id", element:  <SendMessage/>},
-      {path: "login/forgotPassword", element: <ForgotPassword randomNumber = {randomNumber} randOtp = {randOtp}/>},
+      {path: "/send/:id", element:  <SendMessage/>},
+      {path: "/login/forgotPassword", element: <ForgotPassword randomNumber = {randomNumber} randOtp = {randOtp}/>},
       {path: "/otp/:email", element: <OTPInput  randOtp = {randOtp} />}
 
     ]}
