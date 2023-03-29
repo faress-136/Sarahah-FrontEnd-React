@@ -60,7 +60,7 @@ export default function Home({ userData }) {
         <Modal.Body className="text-dark">
           <>
             <div className="user-link text-center p-3 ">
-              <Link to={`/send/${id}`} target="_blank">
+              <Link to={`send/${id}`} >
                 {BaseURL}/user
                 <br />
                 {id}{" "}
