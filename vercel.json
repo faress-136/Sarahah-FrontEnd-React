@@ -1,0 +1,16 @@
+{
+    "routes": [
+      {
+        "src": "/(.*)",
+        "status": 301,
+        "headers": {
+          "Location": "/"
+        }
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      }
+    ]
+  }
+  
