@@ -53,6 +53,9 @@ button{
 }
 
 @media (max-width: 575.98px) {
+  h3{
+    font-size: 20px !important;
+  }
   .square-form {
     width: 90% !important;
   }
@@ -60,6 +63,9 @@ button{
 
 /* For screens between 576px and 992px */
 @media (min-width: 576px) and (max-width: 991.98px) {
+  h3{
+    font-size: 22px !important;
+  }
   .square-form {
     width: 60% !important;
   }
