@@ -52,6 +52,18 @@ button{
   width: 40% !important;
 }
 
+@media (max-width: 575.98px) {
+  .square-form {
+    width: 90% !important;
+  }
+}
+
+/* For screens between 576px and 992px */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .square-form {
+    width: 60% !important;
+  }
+}
 .text-color{
   color: var(--headers) !important;
 }
