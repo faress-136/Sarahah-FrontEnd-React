@@ -40,7 +40,7 @@ export default function Home({ userData }) {
             alt="avatar img"
             className="position-absolute top-0 translate-middle-y"
           />
-          <h3 className="text-muted mt-5 mb-3">{userData.name} </h3>
+          <h3 className="text-muted mt-4 mt-md-5 mb-3">{userData.name} </h3>
           <button
             className="btn btn-sarahah rounded-pill px-3"
             onClick={() => handleShow(true)}

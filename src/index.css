@@ -59,6 +59,9 @@ button{
   .square-form {
     width: 90% !important;
   }
+  .upper-section img{
+    width: 25% !important;
+  }
 }
 
 /* For screens between 576px and 992px */
@@ -68,6 +71,9 @@ button{
   }
   .square-form {
     width: 60% !important;
+  }
+  .upper-section img{
+    width: 20% !important;
   }
 }
 .text-color{
